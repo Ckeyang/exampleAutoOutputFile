@@ -1,0 +1,358 @@
+.operation-icon i.iconfont {
+  cursor: pointer;
+  font-size: 12px;
+  padding: 0 5px;
+  border-radius: 3px;
+  transition: all 0.3s;
+  display: block;
+  float: left;
+  font-weight: normal !important
+}
+.cus-tags-style{
+  font-size: 12px;
+  font-weight: normal !important;
+  display: block;
+  /* text-align: center; */
+  line-height: 20px;
+  height: 20px;
+  /* width: 65px; */
+}
+.iconfont {
+  font-family: 'iconfont' !important;
+  font-size: 14px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.iconfont::before {
+  font-family: 'iconfont' !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.el-button i.iconfont {
+  font-size: 12px;
+  margin-right: 3px;
+}
+.operation-icon i::before {
+  margin-right: 7px;
+}
+.operation-icon i:last-child {
+  margin-right: 0;
+}
+.btn-dropdown-menu .el-dropdown-menu__item{
+  font-size: 12px;
+}
+ 
+.el-dropdown-link i{
+  padding: 0;
+}
+.el-icon-arrow-down {
+  font-size: 12px;
+}
+.iconfont.icon-jian {
+  font-weight: normal !important;
+}
+.page-jump {
+  font-size: 14px;
+  color: #5d687a;
+  float: left;
+}
+.el-pagination__total {
+  font-size: 13px;
+}
+/* 文本超出省略 */
+.content-title {
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* 关键字高亮显示 */
+.highlight-text {
+  color: #d81b1b;
+}
+.check-box {
+  margin-top: 5px !important;
+}
+.notice-box {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.regulation-list {
+  background: #e8e7e7;
+  margin-bottom: 5px;
+}
+/*编辑时的批注引导提示*/
+.top-tip {
+  margin-left: 15px;
+  color: rgb(226, 55, 55);
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+/*
+  表单模板
+*/
+.middle .question {
+  border-radius: 4px;
+  overflow: visible;
+  color: #484848;
+  text-align: left;
+  margin-bottom: 150px;
+  min-height: 300px;
+}
+.question li.q_content {
+  position: relative;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+}
+.question > li.q_content {
+  padding: 25px 40px 18px 57px;
+  border-radius: 4px;
+  border-left: 4px solid #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.q_content .el-radio-group,
+.q_content .el-checkbox-group{
+  display: flex;
+  flex-wrap: wrap;
+}
+.q_content .el-radio-group .el-radio,
+.q_content .el-checkbox-group .el-checkbox{
+  margin: 0 30px 0 0 ;
+  line-height: 38px;
+}
+.middle .sub-question .tool-bar {
+  right: 20px;
+  top: 10px;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  margin: 11px 0;
+  background: rgba(237, 241, 247, 1);
+}
+.right .form-title {
+  font-size: 15px;
+  font-weight: normal;
+}
+.form-item-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0px;
+}
+/*
+  表单录入
+ */
+.icon-yitianxie::before {
+  color: #1fbf84;
+}
+
+.icon-buwanzheng {
+  color: #ffa947;
+}
+
+.icon-weitianxie {
+  color: #f57c6c;
+}
+.icon-weisheji {
+  color: #96a2b3;
+}
+.icon-yisheji {
+  color: #3DA5F4;
+}
+.icon-yuanjian:hover a {
+  color: #1884CC;
+}
+.icon-yuanjian a:hover {
+  color: #1884CC;
+}
+.formEntry .icon-bianji,
+.formEntry .icon-shanchu {
+  font-size: 12px;
+  margin-right: 4px;
+}
+.el-cascader.is-disabled .el-cascader__label span {
+  color: #c0c4cc;
+}
+.el-cascader.is-disabled .el-cascader__label {
+  cursor: not-allowed;
+}
+/* .tools-bar {
+  padding-top: 10px;
+  padding-right: 1em;
+  box-sizing: border-box;
+  border-radius: 6px 6px 0 0;
+  line-height: 36px;
+  background-color: #ffffff;
+} */
+/* 搜索 */
+.search-box {
+  background: #fff;
+  border-radius: 5px;
+  margin-bottom: 13px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.search-box::before {
+  content: '';
+  display: inline-block;
+  z-index: 99;
+  width: 2px;
+  height: 1em;
+  margin: 0 1em 0 0;
+  background: #1884CC;
+}
+
+.search-row {
+  padding: 15px;
+  line-height: 40px;
+  height: 40px;
+  margin: 0 !important;
+  box-sizing: content-box !important;
+}
+.search-box .el-col {
+  padding-right: 20px;
+}
+.search-row .el-form-item__label {
+  color: #3c4551;
+}
+.search-btn-box.el-col{
+  width: 175px;
+  padding: 0;
+}
+@media screen and (max-width: 1400px) {
+  .flexBox .btn-float_right{
+    position: absolute;
+    right: 0px;
+  }
+}
+/* 表格列表title */
+ .tools-bar_common .tb-title {
+  color: #262626;
+  font-size: 14px;
+}
+.tools-bar_common,
+.tools-bar {
+  display: flex;
+  padding: 10px 10px;
+  overflow: hidden;
+  line-height: 36px;
+  color: #262626;
+  justify-content: space-between;
+}
+.tools-bar_common{
+  border-bottom: 1px solid rgba(232,232,232,.64);
+}
+.tools-bar_common .table-title {
+  color: #262626;
+  font-size: 14px;
+}
+.box-style_common {
+  border: 1px solid rgba(213, 224, 237, 1);
+  border-radius: 5px;
+  background: #fff;
+  position: relative;
+  box-shadow: 0 0 1px 1px rgba(176, 190, 209, 0.2);
+}
+
+.left-line_style::before {
+  content: '';
+  display: inline-block;
+  width: 2px;
+  height: 22px;
+  position: absolute;
+  left: -1px;
+  top: 14px;
+  background: #a37aff;
+}
+.table-title::before,
+.tb-title::before,
+.box-title::before,
+.tools-bar::before,
+.search-box::before {
+  content: '';
+  display: inline-block;
+  width: 2px;
+  height: 22px;
+  position: absolute;
+  left: 0px;
+  top: 16px;
+  background: #fc5a4c;
+}
+.search-box::before {
+  top: 24px !important;
+  height: 22px;
+  background: #1884CC;
+}
+.box-title::before{
+  height: 16px;
+  left: -10px;
+  top: 2px;
+}
+.middleDrag{
+  cursor: move !important;
+}
+.regulation-tb .el-table {
+  color: #3c4652;
+}
+/* 修改comfire提示框 */
+.el-message-box__message > p{
+  color: #8C8C8C;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+.el-message-box__title{
+  font-weight:bold;
+  font-size:14px;
+}
+.comfire-text{
+  color: #5E6D82;
+  line-height: 24px;
+  font-size: 12px;
+  font-weight: normal;
+}
+.el-message-box__status{
+  top: auto;
+  transform: translateY(0)
+}
+.el-message-box__headerbtn{
+  top:67%;
+  transform: translateY(-45%);
+}
+/* 左侧栏title */
+.left-title-box{
+  height: 46px;
+  color: #262626;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 46px;
+  padding-left: 8px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  border-bottom: 1px solid #E8E8E8;
+}
+.left-title-box::before{
+  content: '';
+  display: inline-block;
+  height: 22px;
+  width: 2px;
+  background: #22AE7A;
+  position: relative;
+  top: 6px;
+  left: -8px;
+}
+.tooltips-icon{
+  color: #afb2b6
+}
+.tooltips-icon:hover{
+  color: #107AC2;
+}
+
+ 

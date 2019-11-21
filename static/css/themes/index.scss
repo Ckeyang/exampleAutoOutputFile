@@ -1,0 +1,7 @@
+.theme-default {
+  @import '../common.scss';
+}
+.theme-red {
+  @import './theme-red.scss'; //样式变量
+  @import '../common.scss'; //公共结构
+}
